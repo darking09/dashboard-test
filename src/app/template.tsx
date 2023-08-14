@@ -24,13 +24,13 @@ export default function Template({ children } : { children: React.ReactNode}) {
           <div className="px-6 pt-11 grid grid-cols-3 gap-1">
             <Image src={ProfilePicture} alt="profile picture" className={"w-full rounded-3xl col-span-1 p-2"} />
             <div className={"col-span-2 flex flex-col justify-center"}>
-              <h1 className={"text-base font-bold"}>Ildiko Gaspar</h1>
-              <h2 className={"text-sm font-400 font-poppins text-style"}>
+              <h1 className={"text-base font-bold tracking-tight"}>Ildiko Gaspar</h1>
+              <h2 className={"text-sm font-normal tracking-tighter text-style"}>
                 @igaspar
               </h2>
             </div>
           </div>
-          <ul className="pl-2 pt-10 text-style flex flex-col items-stretch gap-2 text-xs">
+          <ul className="pl-2 pt-10 text-style flex flex-col items-stretch gap-2 text-sm font-normal tracking-tighter">
             {
               pathname === "/" ?
                 <li className={"text-purple_dark flex h-9"}>
@@ -117,7 +117,7 @@ export default function Template({ children } : { children: React.ReactNode}) {
                 </li>
             }
           </ul>
-          <div className="text-xs pl-2 h-full flex items-end pb-8">
+          <div className="text-xs pl-2 h-full flex items-end pb-8 font-normal tracking-tighter">
             <li className="h-9 hover:font-bold hover:text-sm group flex">
               <Link href={"/logout"} className="flex w-full items-center gap-2">
                 <LogOutIcon className="stroke-style w-7 h-7 group-hover:stroke-purple_dark group-hover:w-8 group-hover:h-8" />
