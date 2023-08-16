@@ -23,6 +23,9 @@ module.exports = {
       },
       margin: {
         min: "min(25%, 260px)"
+      },
+      border: {
+        1: "1px",
       }
     },
     colors: {
