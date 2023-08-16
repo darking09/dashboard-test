@@ -29,7 +29,6 @@ module.exports = {
       new_orange: "#FF3B30",
       purple_light: "#E8E8FD",
       purple_dark: "#1A194D",
-
       gray_light: "#F8F8FF",
       gray_dark: "#C4C4C4",
       style: "#62618F"
@@ -59,9 +58,12 @@ module.exports = {
               foreground: "#FFFFFF",
               DEFAULT: "#1A194D",
             },
-            secondary: "#62618F",
-            success: "#CBCBD9",
-            warning: "##EE6338",
+            secondary: {
+              foreground: "#FFFFFF",
+              DEFAULT: "#1A194D",
+            },
+            success: "#62618F",
+            warning: "#EE6338",
             danger: "#FF3B30",
             focus: "#FF3B30",
           },

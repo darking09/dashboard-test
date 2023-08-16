@@ -20,11 +20,11 @@ export default function Template({ children } : { children: React.ReactNode}) {
       <div className={"ml-[15%] my-[5rem] bg-new_orange min-h-calc10 w-[20%] max-w-[276px] rounded-3xl absolute"}>
       </div>
       <main className={"min-h-calc15 min-w-calc bg-white mx-[18%] my-[7.5rem] absolute rounded-3xl"} >
-        <nav className={"h-full w-[25%] max-w-[260px] bg-gray_light absolute rounded-l-3xl body-font font-poppins flex flex-col"}>
+        <nav className={"h-full w-[25%] max-w-[260px] bg-gray_light absolute rounded-l-3xl font-poppins flex flex-col"}>
           <div className="px-6 pt-11 grid grid-cols-3 gap-1">
             <Image src={ProfilePicture} alt="profile picture" className={"w-full rounded-3xl col-span-1 p-2"} />
             <div className={"col-span-2 flex flex-col justify-center"}>
-              <h1 className={"text-base font-bold tracking-tight"}>Ildiko Gaspar</h1>
+              <h1 className={"text-base font-bold tracking-tight text-purple_dark"}>Ildiko Gaspar</h1>
               <h2 className={"text-sm font-normal tracking-tighter text-style"}>
                 @igaspar
               </h2>
